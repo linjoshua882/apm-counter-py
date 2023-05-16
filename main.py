@@ -39,7 +39,7 @@ class APMCounter:
         mouse_listener.start()
 
         root = tk.Tk()
-        root.overrideredirect(True)  # Remove window decorations
+        root.overrideredirect(True) 
         root.attributes("-topmost", True)
 
         self.apm_label = tk.Label(root, text="APM: 0", font=("Arial", 12), bg="white")
